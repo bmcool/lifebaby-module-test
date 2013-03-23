@@ -7,10 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PedometerViewController.h"
 
-@interface DetailViewController : UIViewController <UISplitViewControllerDelegate>
+@interface DetailViewController : PedometerViewController
 
-@property (strong, nonatomic) id detailItem;
-
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @end
