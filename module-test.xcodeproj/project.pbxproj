@@ -20,19 +20,9 @@
 		796940AD16FE223D00302DFA /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796940AB16FE223D00302DFA /* MainStoryboard_iPad.storyboard */; };
 		796940B016FE223D00302DFA /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 796940AF16FE223D00302DFA /* MasterViewController.m */; };
 		796940B316FE223D00302DFA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 796940B216FE223D00302DFA /* DetailViewController.m */; };
-		796940C316FE225400302DFA /* module.m in Sources */ = {isa = PBXBuildFile; fileRef = 796940BD16FE225400302DFA /* module.m */; };
-		796940C416FE225400302DFA /* PedometerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 796940BF16FE225400302DFA /* PedometerViewController.m */; };
+		79EDDA5B16FF260400DFF0F3 /* module.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EDDA5816FF260400DFF0F3 /* module.m */; };
+		79EDDA5C16FF260400DFF0F3 /* PedometerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EDDA5A16FF260400DFF0F3 /* PedometerViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		796940C616FE225400302DFA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 796940C016FE225400302DFA /* module.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 79A8EAE816FDAEDD00DFD30B;
-			remoteInfo = module;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		7969408C16FE223D00302DFA /* module-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "module-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,12 +44,11 @@
 		796940AF16FE223D00302DFA /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		796940B116FE223D00302DFA /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		796940B216FE223D00302DFA /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		796940BB16FE225400302DFA /* module-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "module-Prefix.pch"; sourceTree = "<group>"; };
-		796940BC16FE225400302DFA /* module.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = module.h; sourceTree = "<group>"; };
-		796940BD16FE225400302DFA /* module.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = module.m; sourceTree = "<group>"; };
-		796940BE16FE225400302DFA /* PedometerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PedometerViewController.h; sourceTree = "<group>"; };
-		796940BF16FE225400302DFA /* PedometerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PedometerViewController.m; sourceTree = "<group>"; };
-		796940C016FE225400302DFA /* module.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = module.xcodeproj; sourceTree = "<group>"; };
+		79EDDA5616FF260400DFF0F3 /* module-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "module-Prefix.pch"; sourceTree = "<group>"; };
+		79EDDA5716FF260400DFF0F3 /* module.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = module.h; sourceTree = "<group>"; };
+		79EDDA5816FF260400DFF0F3 /* module.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = module.m; sourceTree = "<group>"; };
+		79EDDA5916FF260400DFF0F3 /* PedometerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PedometerViewController.h; sourceTree = "<group>"; };
+		79EDDA5A16FF260400DFF0F3 /* PedometerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PedometerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +68,7 @@
 		7969408116FE223D00302DFA = {
 			isa = PBXGroup;
 			children = (
-				796940B916FE225400302DFA /* module */,
+				79EDDA5516FF260400DFF0F3 /* module */,
 				7969409616FE223D00302DFA /* module-test */,
 				7969408F16FE223D00302DFA /* Frameworks */,
 				7969408D16FE223D00302DFA /* Products */,
@@ -134,34 +123,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		796940B916FE225400302DFA /* module */ = {
+		79EDDA5516FF260400DFF0F3 /* module */ = {
 			isa = PBXGroup;
 			children = (
-				796940BA16FE225400302DFA /* module */,
-				796940C016FE225400302DFA /* module.xcodeproj */,
+				79EDDA5616FF260400DFF0F3 /* module-Prefix.pch */,
+				79EDDA5716FF260400DFF0F3 /* module.h */,
+				79EDDA5816FF260400DFF0F3 /* module.m */,
+				79EDDA5916FF260400DFF0F3 /* PedometerViewController.h */,
+				79EDDA5A16FF260400DFF0F3 /* PedometerViewController.m */,
 			);
 			name = module;
-			path = ../module;
-			sourceTree = "<group>";
-		};
-		796940BA16FE225400302DFA /* module */ = {
-			isa = PBXGroup;
-			children = (
-				796940BB16FE225400302DFA /* module-Prefix.pch */,
-				796940BC16FE225400302DFA /* module.h */,
-				796940BD16FE225400302DFA /* module.m */,
-				796940BE16FE225400302DFA /* PedometerViewController.h */,
-				796940BF16FE225400302DFA /* PedometerViewController.m */,
-			);
-			path = module;
-			sourceTree = "<group>";
-		};
-		796940C116FE225400302DFA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				796940C716FE225400302DFA /* libmodule.a */,
-			);
-			name = Products;
+			path = ../module/module;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,28 +175,12 @@
 			mainGroup = 7969408116FE223D00302DFA;
 			productRefGroup = 7969408D16FE223D00302DFA /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 796940C116FE225400302DFA /* Products */;
-					ProjectRef = 796940C016FE225400302DFA /* module.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				7969408B16FE223D00302DFA /* module-test */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		796940C716FE225400302DFA /* libmodule.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libmodule.a;
-			remoteRef = 796940C616FE225400302DFA /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		7969408A16FE223D00302DFA /* Resources */ = {
@@ -251,8 +207,8 @@
 				796940A116FE223D00302DFA /* AppDelegate.m in Sources */,
 				796940B016FE223D00302DFA /* MasterViewController.m in Sources */,
 				796940B316FE223D00302DFA /* DetailViewController.m in Sources */,
-				796940C316FE225400302DFA /* module.m in Sources */,
-				796940C416FE225400302DFA /* PedometerViewController.m in Sources */,
+				79EDDA5B16FF260400DFF0F3 /* module.m in Sources */,
+				79EDDA5C16FF260400DFF0F3 /* PedometerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +334,7 @@
 				796940B816FE223D00302DFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
