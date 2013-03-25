@@ -19,9 +19,14 @@
 		796940AA16FE223D00302DFA /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796940A816FE223D00302DFA /* MainStoryboard_iPhone.storyboard */; };
 		796940AD16FE223D00302DFA /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796940AB16FE223D00302DFA /* MainStoryboard_iPad.storyboard */; };
 		796940B016FE223D00302DFA /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 796940AF16FE223D00302DFA /* MasterViewController.m */; };
-		796940B316FE223D00302DFA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 796940B216FE223D00302DFA /* DetailViewController.m */; };
+		796940B316FE223D00302DFA /* ShakeExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 796940B216FE223D00302DFA /* ShakeExample.m */; };
+		79A2049E170002A500E3F564 /* NSUserDefaults+MPSecureUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A2049D170002A500E3F564 /* NSUserDefaults+MPSecureUserDefaults.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		79A204A1170002D900E3F564 /* MPSecureUserDefaultsExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A204A0170002D900E3F564 /* MPSecureUserDefaultsExample.m */; };
+		79A204BF1700458A00E3F564 /* NSObject+PropertyListing.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A204BE1700458A00E3F564 /* NSObject+PropertyListing.m */; };
+		79A204C3170045AE00E3F564 /* PropertyListingExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A204C2170045AE00E3F564 /* PropertyListingExample.m */; };
+		79A204C71700460700E3F564 /* ExObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A204C61700460700E3F564 /* ExObject.m */; };
+		79A204DB1700622D00E3F564 /* ShakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A204DA1700622D00E3F564 /* ShakeViewController.m */; };
 		79EDDA5B16FF260400DFF0F3 /* module.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EDDA5816FF260400DFF0F3 /* module.m */; };
-		79EDDA5C16FF260400DFF0F3 /* PedometerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EDDA5A16FF260400DFF0F3 /* PedometerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,13 +47,23 @@
 		796940AC16FE223D00302DFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		796940AE16FE223D00302DFA /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		796940AF16FE223D00302DFA /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		796940B116FE223D00302DFA /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		796940B216FE223D00302DFA /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		796940B116FE223D00302DFA /* ShakeExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShakeExample.h; sourceTree = "<group>"; };
+		796940B216FE223D00302DFA /* ShakeExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShakeExample.m; sourceTree = "<group>"; };
+		79A2049C170002A500E3F564 /* NSUserDefaults+MPSecureUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+MPSecureUserDefaults.h"; sourceTree = "<group>"; };
+		79A2049D170002A500E3F564 /* NSUserDefaults+MPSecureUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+MPSecureUserDefaults.m"; sourceTree = "<group>"; };
+		79A2049F170002D900E3F564 /* MPSecureUserDefaultsExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSecureUserDefaultsExample.h; sourceTree = "<group>"; };
+		79A204A0170002D900E3F564 /* MPSecureUserDefaultsExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSecureUserDefaultsExample.m; sourceTree = "<group>"; };
+		79A204BD1700458A00E3F564 /* NSObject+PropertyListing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PropertyListing.h"; sourceTree = "<group>"; };
+		79A204BE1700458A00E3F564 /* NSObject+PropertyListing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PropertyListing.m"; sourceTree = "<group>"; };
+		79A204C1170045AE00E3F564 /* PropertyListingExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyListingExample.h; sourceTree = "<group>"; };
+		79A204C2170045AE00E3F564 /* PropertyListingExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyListingExample.m; sourceTree = "<group>"; };
+		79A204C51700460700E3F564 /* ExObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExObject.h; sourceTree = "<group>"; };
+		79A204C61700460700E3F564 /* ExObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExObject.m; sourceTree = "<group>"; };
+		79A204D91700622D00E3F564 /* ShakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShakeViewController.h; sourceTree = "<group>"; };
+		79A204DA1700622D00E3F564 /* ShakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShakeViewController.m; sourceTree = "<group>"; };
 		79EDDA5616FF260400DFF0F3 /* module-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "module-Prefix.pch"; sourceTree = "<group>"; };
 		79EDDA5716FF260400DFF0F3 /* module.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = module.h; sourceTree = "<group>"; };
 		79EDDA5816FF260400DFF0F3 /* module.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = module.m; sourceTree = "<group>"; };
-		79EDDA5916FF260400DFF0F3 /* PedometerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PedometerViewController.h; sourceTree = "<group>"; };
-		79EDDA5A16FF260400DFF0F3 /* PedometerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PedometerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,14 +111,17 @@
 		7969409616FE223D00302DFA /* module-test */ = {
 			isa = PBXGroup;
 			children = (
+				79A204C4170045DA00E3F564 /* PropertyListing */,
 				7969409F16FE223D00302DFA /* AppDelegate.h */,
 				796940A016FE223D00302DFA /* AppDelegate.m */,
 				796940A816FE223D00302DFA /* MainStoryboard_iPhone.storyboard */,
 				796940AB16FE223D00302DFA /* MainStoryboard_iPad.storyboard */,
 				796940AE16FE223D00302DFA /* MasterViewController.h */,
 				796940AF16FE223D00302DFA /* MasterViewController.m */,
-				796940B116FE223D00302DFA /* DetailViewController.h */,
-				796940B216FE223D00302DFA /* DetailViewController.m */,
+				796940B116FE223D00302DFA /* ShakeExample.h */,
+				796940B216FE223D00302DFA /* ShakeExample.m */,
+				79A2049F170002D900E3F564 /* MPSecureUserDefaultsExample.h */,
+				79A204A0170002D900E3F564 /* MPSecureUserDefaultsExample.m */,
 				7969409716FE223D00302DFA /* Supporting Files */,
 			);
 			path = "module-test";
@@ -123,14 +141,29 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		79A204C4170045DA00E3F564 /* PropertyListing */ = {
+			isa = PBXGroup;
+			children = (
+				79A204C1170045AE00E3F564 /* PropertyListingExample.h */,
+				79A204C2170045AE00E3F564 /* PropertyListingExample.m */,
+				79A204C51700460700E3F564 /* ExObject.h */,
+				79A204C61700460700E3F564 /* ExObject.m */,
+			);
+			name = PropertyListing;
+			sourceTree = "<group>";
+		};
 		79EDDA5516FF260400DFF0F3 /* module */ = {
 			isa = PBXGroup;
 			children = (
+				79A204D91700622D00E3F564 /* ShakeViewController.h */,
+				79A204DA1700622D00E3F564 /* ShakeViewController.m */,
+				79A204BD1700458A00E3F564 /* NSObject+PropertyListing.h */,
+				79A204BE1700458A00E3F564 /* NSObject+PropertyListing.m */,
+				79A2049C170002A500E3F564 /* NSUserDefaults+MPSecureUserDefaults.h */,
+				79A2049D170002A500E3F564 /* NSUserDefaults+MPSecureUserDefaults.m */,
 				79EDDA5616FF260400DFF0F3 /* module-Prefix.pch */,
 				79EDDA5716FF260400DFF0F3 /* module.h */,
 				79EDDA5816FF260400DFF0F3 /* module.m */,
-				79EDDA5916FF260400DFF0F3 /* PedometerViewController.h */,
-				79EDDA5A16FF260400DFF0F3 /* PedometerViewController.m */,
 			);
 			name = module;
 			path = ../module/module;
@@ -206,9 +239,14 @@
 				7969409D16FE223D00302DFA /* main.m in Sources */,
 				796940A116FE223D00302DFA /* AppDelegate.m in Sources */,
 				796940B016FE223D00302DFA /* MasterViewController.m in Sources */,
-				796940B316FE223D00302DFA /* DetailViewController.m in Sources */,
+				796940B316FE223D00302DFA /* ShakeExample.m in Sources */,
 				79EDDA5B16FF260400DFF0F3 /* module.m in Sources */,
-				79EDDA5C16FF260400DFF0F3 /* PedometerViewController.m in Sources */,
+				79A2049E170002A500E3F564 /* NSUserDefaults+MPSecureUserDefaults.m in Sources */,
+				79A204A1170002D900E3F564 /* MPSecureUserDefaultsExample.m in Sources */,
+				79A204BF1700458A00E3F564 /* NSObject+PropertyListing.m in Sources */,
+				79A204C3170045AE00E3F564 /* PropertyListingExample.m in Sources */,
+				79A204C71700460700E3F564 /* ExObject.m in Sources */,
+				79A204DB1700622D00E3F564 /* ShakeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +302,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,7 +323,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

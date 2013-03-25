@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "PedometerViewController.h"
+#import "ShakeViewController.h"
 
-@interface DetailViewController : PedometerViewController
+@interface ShakeExample : ShakeViewController<ShakeDelegate>
 
 @end

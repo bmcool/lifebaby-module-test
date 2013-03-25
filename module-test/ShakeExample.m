@@ -6,9 +6,9 @@
 //  Copyright (c) 2013年 lifebaby. All rights reserved.
 //
 
-#import "DetailViewController.h"
+#import "ShakeExample.h"
 
-@implementation DetailViewController
+@implementation ShakeExample
 
 -(void) incrNumSteps
 {
