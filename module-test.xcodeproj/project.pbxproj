@@ -18,7 +18,6 @@
 		796940A716FE223D00302DFA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 796940A616FE223D00302DFA /* Default-568h@2x.png */; };
 		796940AA16FE223D00302DFA /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796940A816FE223D00302DFA /* MainStoryboard_iPhone.storyboard */; };
 		796940AD16FE223D00302DFA /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796940AB16FE223D00302DFA /* MainStoryboard_iPad.storyboard */; };
-		796940B016FE223D00302DFA /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 796940AF16FE223D00302DFA /* MasterViewController.m */; };
 		796940B316FE223D00302DFA /* ShakeExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 796940B216FE223D00302DFA /* ShakeExample.m */; };
 		79A2049E170002A500E3F564 /* NSUserDefaults+MPSecureUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A2049D170002A500E3F564 /* NSUserDefaults+MPSecureUserDefaults.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		79A204A1170002D900E3F564 /* MPSecureUserDefaultsExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A204A0170002D900E3F564 /* MPSecureUserDefaultsExample.m */; };
@@ -45,8 +44,6 @@
 		796940A616FE223D00302DFA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		796940A916FE223D00302DFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		796940AC16FE223D00302DFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		796940AE16FE223D00302DFA /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		796940AF16FE223D00302DFA /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		796940B116FE223D00302DFA /* ShakeExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShakeExample.h; sourceTree = "<group>"; };
 		796940B216FE223D00302DFA /* ShakeExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShakeExample.m; sourceTree = "<group>"; };
 		79A2049C170002A500E3F564 /* NSUserDefaults+MPSecureUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+MPSecureUserDefaults.h"; sourceTree = "<group>"; };
@@ -116,8 +113,6 @@
 				796940A016FE223D00302DFA /* AppDelegate.m */,
 				796940A816FE223D00302DFA /* MainStoryboard_iPhone.storyboard */,
 				796940AB16FE223D00302DFA /* MainStoryboard_iPad.storyboard */,
-				796940AE16FE223D00302DFA /* MasterViewController.h */,
-				796940AF16FE223D00302DFA /* MasterViewController.m */,
 				796940B116FE223D00302DFA /* ShakeExample.h */,
 				796940B216FE223D00302DFA /* ShakeExample.m */,
 				79A2049F170002D900E3F564 /* MPSecureUserDefaultsExample.h */,
@@ -238,7 +233,6 @@
 			files = (
 				7969409D16FE223D00302DFA /* main.m in Sources */,
 				796940A116FE223D00302DFA /* AppDelegate.m in Sources */,
-				796940B016FE223D00302DFA /* MasterViewController.m in Sources */,
 				796940B316FE223D00302DFA /* ShakeExample.m in Sources */,
 				79EDDA5B16FF260400DFF0F3 /* module.m in Sources */,
 				79A2049E170002A500E3F564 /* NSUserDefaults+MPSecureUserDefaults.m in Sources */,
