@@ -28,6 +28,19 @@
     [super viewDidLoad];
 }
 
+- (void)locationUpdate:(CLLocation *)location distance:(CLLocationDistance)distance
+{
+    NSLog(@"latitude = %f", location.coordinate.latitude);
+    NSLog(@"longitude = %f", location.coordinate.longitude);
+    NSLog(@"altitude = %f", location.altitude);
+    
+    // meter/sec
+    NSLog(@"speed = %f", location.speed);
+    
+    // meter
+    NSLog(@"distance = %f", distance);
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

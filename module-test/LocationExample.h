@@ -8,6 +8,6 @@
 
 #import "MoveViewController.h"
 
-@interface LocationExample : MoveViewController
+@interface LocationExample : MoveViewController<MoveDelegate>
 
 @end
