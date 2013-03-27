@@ -24,6 +24,13 @@
 		796F61AA1700D5520049576F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796F61A91700D5520049576F /* CoreLocation.framework */; };
 		796F61B71700DAD70049576F /* MotionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 796F61B41700DAD70049576F /* MotionViewController.m */; };
 		796F61B81700DAD70049576F /* MoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 796F61B61700DAD70049576F /* MoveViewController.m */; };
+		797F65881703501D00D01C5B /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = 797F65871703501D00D01C5B /* Weather.m */; };
+		797F658B170357B400D01C5B /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = 797F658A170357B400D01C5B /* Station.m */; };
+		797F659617035D0A00D01C5B /* OpenWeatherMapExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 797F659517035D0A00D01C5B /* OpenWeatherMapExample.m */; };
+		799E4105170320A800EDDFB1 /* Http.m in Sources */ = {isa = PBXBuildFile; fileRef = 799E4100170320A800EDDFB1 /* Http.m */; };
+		799E4106170320A800EDDFB1 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 799E4102170320A800EDDFB1 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		799E4107170320A800EDDFB1 /* OpenWeatherMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 799E4104170320A800EDDFB1 /* OpenWeatherMap.m */; };
+		799E410B170320C900EDDFB1 /* JSONAPIExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 799E410A170320C900EDDFB1 /* JSONAPIExample.m */; };
 		79A2049E170002A500E3F564 /* NSUserDefaults+MPSecureUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A2049D170002A500E3F564 /* NSUserDefaults+MPSecureUserDefaults.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		79A204A1170002D900E3F564 /* MPSecureUserDefaultsExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A204A0170002D900E3F564 /* MPSecureUserDefaultsExample.m */; };
 		79A204BF1700458A00E3F564 /* NSObject+PropertyListing.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A204BE1700458A00E3F564 /* NSObject+PropertyListing.m */; };
@@ -59,6 +66,20 @@
 		796F61B41700DAD70049576F /* MotionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionViewController.m; sourceTree = "<group>"; };
 		796F61B51700DAD70049576F /* MoveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveViewController.h; sourceTree = "<group>"; };
 		796F61B61700DAD70049576F /* MoveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveViewController.m; sourceTree = "<group>"; };
+		797F65861703501D00D01C5B /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weather.h; sourceTree = "<group>"; };
+		797F65871703501D00D01C5B /* Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weather.m; sourceTree = "<group>"; };
+		797F6589170357B400D01C5B /* Station.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Station.h; sourceTree = "<group>"; };
+		797F658A170357B400D01C5B /* Station.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Station.m; sourceTree = "<group>"; };
+		797F659417035D0A00D01C5B /* OpenWeatherMapExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenWeatherMapExample.h; sourceTree = "<group>"; };
+		797F659517035D0A00D01C5B /* OpenWeatherMapExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenWeatherMapExample.m; sourceTree = "<group>"; };
+		799E40FF170320A800EDDFB1 /* Http.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Http.h; sourceTree = "<group>"; };
+		799E4100170320A800EDDFB1 /* Http.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Http.m; sourceTree = "<group>"; };
+		799E4101170320A800EDDFB1 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		799E4102170320A800EDDFB1 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		799E4103170320A800EDDFB1 /* OpenWeatherMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenWeatherMap.h; sourceTree = "<group>"; };
+		799E4104170320A800EDDFB1 /* OpenWeatherMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenWeatherMap.m; sourceTree = "<group>"; };
+		799E4109170320C900EDDFB1 /* JSONAPIExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPIExample.h; sourceTree = "<group>"; };
+		799E410A170320C900EDDFB1 /* JSONAPIExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPIExample.m; sourceTree = "<group>"; };
 		79A2049C170002A500E3F564 /* NSUserDefaults+MPSecureUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+MPSecureUserDefaults.h"; sourceTree = "<group>"; };
 		79A2049D170002A500E3F564 /* NSUserDefaults+MPSecureUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+MPSecureUserDefaults.m"; sourceTree = "<group>"; };
 		79A2049F170002D900E3F564 /* MPSecureUserDefaultsExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSecureUserDefaultsExample.h; sourceTree = "<group>"; };
@@ -136,6 +157,10 @@
 				79A204A0170002D900E3F564 /* MPSecureUserDefaultsExample.m */,
 				796F617517009F920049576F /* LocationExample.h */,
 				796F617617009F920049576F /* LocationExample.m */,
+				799E4109170320C900EDDFB1 /* JSONAPIExample.h */,
+				799E410A170320C900EDDFB1 /* JSONAPIExample.m */,
+				797F659417035D0A00D01C5B /* OpenWeatherMapExample.h */,
+				797F659517035D0A00D01C5B /* OpenWeatherMapExample.m */,
 				7969409716FE223D00302DFA /* Supporting Files */,
 			);
 			path = "module-test";
@@ -169,6 +194,16 @@
 		79EDDA5516FF260400DFF0F3 /* module */ = {
 			isa = PBXGroup;
 			children = (
+				799E4103170320A800EDDFB1 /* OpenWeatherMap.h */,
+				799E4104170320A800EDDFB1 /* OpenWeatherMap.m */,
+				797F65861703501D00D01C5B /* Weather.h */,
+				797F65871703501D00D01C5B /* Weather.m */,
+				797F6589170357B400D01C5B /* Station.h */,
+				797F658A170357B400D01C5B /* Station.m */,
+				799E40FF170320A800EDDFB1 /* Http.h */,
+				799E4100170320A800EDDFB1 /* Http.m */,
+				799E4101170320A800EDDFB1 /* JSONKit.h */,
+				799E4102170320A800EDDFB1 /* JSONKit.m */,
 				796F61B31700DAD70049576F /* MotionViewController.h */,
 				796F61B41700DAD70049576F /* MotionViewController.m */,
 				796F61B51700DAD70049576F /* MoveViewController.h */,
@@ -267,6 +302,13 @@
 				796F617717009F920049576F /* LocationExample.m in Sources */,
 				796F61B71700DAD70049576F /* MotionViewController.m in Sources */,
 				796F61B81700DAD70049576F /* MoveViewController.m in Sources */,
+				799E4105170320A800EDDFB1 /* Http.m in Sources */,
+				799E4106170320A800EDDFB1 /* JSONKit.m in Sources */,
+				799E4107170320A800EDDFB1 /* OpenWeatherMap.m in Sources */,
+				799E410B170320C900EDDFB1 /* JSONAPIExample.m in Sources */,
+				797F65881703501D00D01C5B /* Weather.m in Sources */,
+				797F658B170357B400D01C5B /* Station.m in Sources */,
+				797F659617035D0A00D01C5B /* OpenWeatherMapExample.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
