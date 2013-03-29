@@ -19,6 +19,33 @@
             </objects>
             <point key="canvasLocation" x="94" y="-213"/>
         </scene>
+        <!--Storyboard Xib Example-->
+        <scene sceneID="xf0-Qo-kE0">
+            <objects>
+                <viewController id="DZ6-AI-wLG" customClass="StoryboardXibExample" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wA0-2l-hvW">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="Nyx-Yy-h7t" customClass="XibView">
+                                <rect key="frame" x="29" y="198" width="191" height="259"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="YX6-5l-MIt" customClass="XibView">
+                                <rect key="frame" x="109" y="20" width="191" height="259"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="JHL-AK-Nxp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="52n-U4-z8p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="520" y="-916"/>
+        </scene>
         <!--Table View Controller-->
         <scene sceneID="wG5-qi-7SF">
             <objects>
@@ -198,6 +225,34 @@
                                             <segue destination="KeM-R4-roI" kind="push" id="652-pk-iVv"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="5W8-OC-kkY" detailTextLabel="ecs-Um-DXy" style="IBUITableViewCellStyleSubtitle" id="h79-pR-w2x">
+                                        <rect key="frame" x="0.0" y="264" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Storyboard+reuse Xib View" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5W8-OC-kkY">
+                                                    <rect key="frame" x="10" y="2" width="234" height="22"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Hack it.." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ecs-Um-DXy">
+                                                    <rect key="frame" x="10" y="24" width="51" height="18"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <connections>
+                                            <segue destination="DZ6-AI-wLG" kind="push" id="ie9-UX-tMB"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -357,6 +412,44 @@ Watch your log</string>
             <point key="canvasLocation" x="1002" y="-858"/>
         </scene>
     </scenes>
+    <classes>
+        <class className="JSONAPIExample" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/JSONAPIExample.h"/>
+        </class>
+        <class className="LocationExample" superclassName="MoveViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/LocationExample.h"/>
+        </class>
+        <class className="MPSecureUserDefaultsExample" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MPSecureUserDefaultsExample.h"/>
+        </class>
+        <class className="MotionViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MotionViewController.h"/>
+        </class>
+        <class className="MoveViewController" superclassName="MotionViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MoveViewController.h"/>
+        </class>
+        <class className="OpenWeatherMapExample" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/OpenWeatherMapExample.h"/>
+            <relationships>
+                <relationship kind="outlet" name="weatherIconImageView" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+        <class className="PropertyListingExample" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PropertyListingExample.h"/>
+        </class>
+        <class className="ShakeExample" superclassName="ShakeViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ShakeExample.h"/>
+        </class>
+        <class className="ShakeViewController" superclassName="MotionViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ShakeViewController.h"/>
+        </class>
+        <class className="StoryboardXibExample" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/StoryboardXibExample.h"/>
+        </class>
+        <class className="XibView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/XibView.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

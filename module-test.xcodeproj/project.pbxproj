@@ -37,6 +37,14 @@
 		79A204C3170045AE00E3F564 /* PropertyListingExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A204C2170045AE00E3F564 /* PropertyListingExample.m */; };
 		79A204C71700460700E3F564 /* ExObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A204C61700460700E3F564 /* ExObject.m */; };
 		79A204DB1700622D00E3F564 /* ShakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A204DA1700622D00E3F564 /* ShakeViewController.m */; };
+		79CA74231705DBB40077AB51 /* MethodSwizzle.c in Sources */ = {isa = PBXBuildFile; fileRef = 79CA741A1705DBB40077AB51 /* MethodSwizzle.c */; };
+		79CA74241705DBB40077AB51 /* NSArray+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CA741C1705DBB40077AB51 /* NSArray+Addition.m */; };
+		79CA74251705DBB40077AB51 /* NSObject+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CA741E1705DBB40077AB51 /* NSObject+Swizzle.m */; };
+		79CA74261705DBB40077AB51 /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CA74201705DBB40077AB51 /* UIView+Addition.m */; };
+		79CA74271705DBB40077AB51 /* UIViewController+StoryboardExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CA74221705DBB40077AB51 /* UIViewController+StoryboardExtend.m */; };
+		79CA742A1705DE530077AB51 /* XibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79CA74291705DE530077AB51 /* XibView.xib */; };
+		79CA742D1705DF8F0077AB51 /* XibView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CA742C1705DF8F0077AB51 /* XibView.m */; };
+		79CA74321705E0F10077AB51 /* StoryboardXibExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CA74311705E0F00077AB51 /* StoryboardXibExample.m */; };
 		79EDDA5B16FF260400DFF0F3 /* module.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EDDA5816FF260400DFF0F3 /* module.m */; };
 /* End PBXBuildFile section */
 
@@ -92,6 +100,21 @@
 		79A204C61700460700E3F564 /* ExObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExObject.m; sourceTree = "<group>"; };
 		79A204D91700622D00E3F564 /* ShakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShakeViewController.h; sourceTree = "<group>"; };
 		79A204DA1700622D00E3F564 /* ShakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShakeViewController.m; sourceTree = "<group>"; };
+		79CA741A1705DBB40077AB51 /* MethodSwizzle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MethodSwizzle.c; sourceTree = "<group>"; };
+		79CA741B1705DBB40077AB51 /* NSArray+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Addition.h"; sourceTree = "<group>"; };
+		79CA741C1705DBB40077AB51 /* NSArray+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Addition.m"; sourceTree = "<group>"; };
+		79CA741D1705DBB40077AB51 /* NSObject+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzle.h"; sourceTree = "<group>"; };
+		79CA741E1705DBB40077AB51 /* NSObject+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzle.m"; sourceTree = "<group>"; };
+		79CA741F1705DBB40077AB51 /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
+		79CA74201705DBB40077AB51 /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
+		79CA74211705DBB40077AB51 /* UIViewController+StoryboardExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+StoryboardExtend.h"; sourceTree = "<group>"; };
+		79CA74221705DBB40077AB51 /* UIViewController+StoryboardExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+StoryboardExtend.m"; sourceTree = "<group>"; };
+		79CA74291705DE530077AB51 /* XibView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibView.xib; sourceTree = "<group>"; };
+		79CA742B1705DF8F0077AB51 /* XibView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XibView.h; sourceTree = "<group>"; };
+		79CA742C1705DF8F0077AB51 /* XibView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XibView.m; sourceTree = "<group>"; };
+		79CA742E1705E0530077AB51 /* MethodSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodSwizzle.h; sourceTree = "<group>"; };
+		79CA74301705E0F00077AB51 /* StoryboardXibExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryboardXibExample.h; sourceTree = "<group>"; };
+		79CA74311705E0F00077AB51 /* StoryboardXibExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryboardXibExample.m; sourceTree = "<group>"; };
 		79EDDA5616FF260400DFF0F3 /* module-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "module-Prefix.pch"; sourceTree = "<group>"; };
 		79EDDA5716FF260400DFF0F3 /* module.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = module.h; sourceTree = "<group>"; };
 		79EDDA5816FF260400DFF0F3 /* module.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = module.m; sourceTree = "<group>"; };
@@ -146,6 +169,7 @@
 		7969409616FE223D00302DFA /* module-test */ = {
 			isa = PBXGroup;
 			children = (
+				79CA74331705E5F10077AB51 /* StoryboardXib */,
 				79A204C4170045DA00E3F564 /* PropertyListing */,
 				7969409F16FE223D00302DFA /* AppDelegate.h */,
 				796940A016FE223D00302DFA /* AppDelegate.m */,
@@ -191,9 +215,31 @@
 			name = PropertyListing;
 			sourceTree = "<group>";
 		};
+		79CA74331705E5F10077AB51 /* StoryboardXib */ = {
+			isa = PBXGroup;
+			children = (
+				79CA74291705DE530077AB51 /* XibView.xib */,
+				79CA742B1705DF8F0077AB51 /* XibView.h */,
+				79CA742C1705DF8F0077AB51 /* XibView.m */,
+				79CA74301705E0F00077AB51 /* StoryboardXibExample.h */,
+				79CA74311705E0F00077AB51 /* StoryboardXibExample.m */,
+			);
+			name = StoryboardXib;
+			sourceTree = "<group>";
+		};
 		79EDDA5516FF260400DFF0F3 /* module */ = {
 			isa = PBXGroup;
 			children = (
+				79CA742E1705E0530077AB51 /* MethodSwizzle.h */,
+				79CA741A1705DBB40077AB51 /* MethodSwizzle.c */,
+				79CA741B1705DBB40077AB51 /* NSArray+Addition.h */,
+				79CA741C1705DBB40077AB51 /* NSArray+Addition.m */,
+				79CA741D1705DBB40077AB51 /* NSObject+Swizzle.h */,
+				79CA741E1705DBB40077AB51 /* NSObject+Swizzle.m */,
+				79CA741F1705DBB40077AB51 /* UIView+Addition.h */,
+				79CA74201705DBB40077AB51 /* UIView+Addition.m */,
+				79CA74211705DBB40077AB51 /* UIViewController+StoryboardExtend.h */,
+				79CA74221705DBB40077AB51 /* UIViewController+StoryboardExtend.m */,
 				799E4103170320A800EDDFB1 /* OpenWeatherMap.h */,
 				799E4104170320A800EDDFB1 /* OpenWeatherMap.m */,
 				797F65861703501D00D01C5B /* Weather.h */,
@@ -279,6 +325,7 @@
 				796940A716FE223D00302DFA /* Default-568h@2x.png in Resources */,
 				796940AA16FE223D00302DFA /* MainStoryboard_iPhone.storyboard in Resources */,
 				796940AD16FE223D00302DFA /* MainStoryboard_iPad.storyboard in Resources */,
+				79CA742A1705DE530077AB51 /* XibView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +356,13 @@
 				797F65881703501D00D01C5B /* Weather.m in Sources */,
 				797F658B170357B400D01C5B /* Station.m in Sources */,
 				797F659617035D0A00D01C5B /* OpenWeatherMapExample.m in Sources */,
+				79CA74231705DBB40077AB51 /* MethodSwizzle.c in Sources */,
+				79CA74241705DBB40077AB51 /* NSArray+Addition.m in Sources */,
+				79CA74251705DBB40077AB51 /* NSObject+Swizzle.m in Sources */,
+				79CA74261705DBB40077AB51 /* UIView+Addition.m in Sources */,
+				79CA74271705DBB40077AB51 /* UIViewController+StoryboardExtend.m in Sources */,
+				79CA742D1705DF8F0077AB51 /* XibView.m in Sources */,
+				79CA74321705E0F10077AB51 /* StoryboardXibExample.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

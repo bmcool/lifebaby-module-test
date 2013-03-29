@@ -10,10 +10,10 @@
 
 @implementation ShakeExample
 
--(void) incrNumSteps
+-(void) incrShakeCount
 {
-    [super incrNumSteps];
-    NSLog(@"steps = %d", self.numSteps);
+    [super incrShakeCount];
+    NSLog(@"steps = %d", self.shakeCount);
 }
 
 @end
